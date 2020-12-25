@@ -23,3 +23,9 @@ that I "borrowed" for my solution then.
 puzzles had quite increased in complexity over the last couple of days.
 My solution is probably not ideal and the second part ran for quite a while
 (~ 30 seconds) but still it terminated and yielded the correct solution.
+
+[Day 17](https://adventofcode.com/2020/day/17) had a confusing explanation which
+cost me a lot of time. In fact, I had noticed that these puzzles now took a significant
+amount of my time each day. So I decided to pause this activity for now and finish
+it up when my Christmas vacation was over. Kind of beats the purpose of a Christmas
+calendar, but everyone's time is precious and needs to be well spent.
