@@ -29,3 +29,11 @@ cost me a lot of time. In fact, I had noticed that these puzzles now took a sign
 amount of my time each day. So I decided to pause this activity for now and finish
 it up when my Christmas vacation was over. Kind of beats the purpose of a Christmas
 calendar, but everyone's time is precious and needs to be well spent.
+
+I'm pretty proud of my solution for [Day 23](https://adventofcode.com/2020/day/23).
+This was the first puzzle I successfully optimized in terms of runtime performance.
+The initial solution (using a `List<int>`) was running for more than one hour AND
+producing an incorrect result. So debugging was a bit of a problem here. However,
+I quickly managed to bring the runtime down to a couple of seconds using a `LinkedList<int>`
+and an index-to-node cache (using a `LinkedListNode<int>[]`) for *O(1)* lookup.
+That way I could figure out my bug (I forgot to update the maximum value to 1.000.000).
